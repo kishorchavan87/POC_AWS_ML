@@ -1,0 +1,8 @@
+boto3
+pandas
+requests
+pyarrow
+s3fs
+torch
+scikit-learn
+aws-cli
