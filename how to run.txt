@@ -1,0 +1,9 @@
+How to run: Buid dockerfile for each task.
+==============
+
+docker build -t extract docker/extract/
+docker build -t upload_s3 docker/upload_s3/
+docker build -t transform docker/transform/
+docker build -t train docker/train/
+docker build -t evaluate docker/evaluate/
+docker build -t save_parquet docker/save_parquet/
